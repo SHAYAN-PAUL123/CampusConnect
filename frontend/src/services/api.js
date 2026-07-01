@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://campusconnect-1-cvx3.onrender.com/api",
+  baseURL: "http://localhost:3000/api",
 });
 
 API.interceptors.request.use(
